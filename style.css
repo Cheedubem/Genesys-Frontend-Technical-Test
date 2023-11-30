@@ -10,6 +10,7 @@ body {
 }
 
 .btn {
+  text-decoration: none;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
