@@ -50,7 +50,7 @@ header nav {
 }
 
 .hero-image img {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 80%;
   height: auto;
   margin-right: -12rem;
