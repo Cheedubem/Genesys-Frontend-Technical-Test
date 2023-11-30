@@ -17,6 +17,10 @@ body {
   color: #fff;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 header nav {
   padding: 2rem 4rem;
   display: flex;
@@ -35,4 +39,30 @@ header nav {
 .nav-list a {
   text-decoration: none;
   color: #000;
+}
+
+.hero {
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image img {
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+  margin-right: -12rem;
+}
+
+.hero-content p {
+  margin-bottom: 2rem;
+  color: #44c3ebcc;
+}
+.hero-content h1 {
+  margin-bottom: 2rem;
+}
+
+.hero-content button {
+  flex: 0;
 }
